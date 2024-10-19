@@ -25,4 +25,4 @@ To run the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/train-seat-booking.git
+   git clone https://github.com/sanjeevk11/train-seat-booking.git
