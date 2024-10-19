@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import SeatBooking from './components/SeatBooking'; // Import the SeatBooking component
+import './styles.css'; // Import CSS styles
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="app">
+            <SeatBooking /> {/* Render the SeatBooking component */}
+        </div>
+    );
+};
 
-export default App;
+export default App; // Export the App component for rendering in the index file

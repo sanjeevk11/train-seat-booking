@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif; /* Set default font */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Add padding to body */
+  background-color: #f4f4f4; /* Light grey background */
+}
+
+.app {
+  max-width: 800px; /* Max width for the app container */
+  margin: auto; /* Center the container */
+  background: white; /* White background for the app */
+  padding: 20px; /* Padding for the app container */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  color: #333; /* Dark grey color for the title */
+  text-align: center; /* Center the title */
+}
+
+.seat-input {
+  width: 50px; /* Set width for the seat input */
+  margin: 10px 0; /* Margin for spacing */
+}
+
+.book-button {
+  padding: 10px 20px; /* Padding for the booking button */
+  background-color: #007bff; /* Blue background for the button */
+  color: white; /* White text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.book-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.seats-container {
+  display: flex; /* Flexbox layout for the seats container */
+  flex-direction: column; /* Vertical layout */
+  margin-top: 20px; /* Space above the seats */
+}
+
+.seat-row {
+  display: flex; /* Flexbox layout for the seat row */
+  justify-content: center; /* Center seats in the row */
+  margin: 5px 0; /* Margin between rows */
+}
+
+.seat {
+  width: 30px; /* Width for each seat */
+  height: 30px; /* Height for each seat */
+  display: flex; /* Flexbox layout for the seat */
+  align-items: center; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  border: 1px solid #ccc; /* Light grey border for seats */
+  border-radius: 4px; /* Rounded corners for seats */
+  margin: 0 2px; /* Margin between seats */
+}
+
+.available {
+  background-color: #28a745; /* Green for available seats */
+  color: white; /* White text for available seats */
+}
+
+.booked {
+  background-color: #dc3545; /* Red for booked seats */
+  color: white; /* White text for booked seats */
+}
