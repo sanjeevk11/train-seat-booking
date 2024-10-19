@@ -1,28 +1,28 @@
-# train-seat-booking
-## 🔥 Clone this Repository
+# Train Seat Booking Application
 
-You need to write the following commands on the terminal screen(in vscode) so that you can run this project locally.
+## Description
 
-```bash
-  git clone "https://github.com/sanjeevk11/train-seat-booking.git"
-```
+The **Train Seat Booking Application** is a web-based application built with **React**. It allows users to reserve seats in a train coach easily and efficiently, focusing on user experience and real-time seat availability.
 
-Go to the project directory
+## Features
 
-```bash
-  cd train-seat-booking
-```
+- **Seat Selection**: Users can book up to 7 seats at a time.
+- **Dynamic Booking Logic**: The application prioritizes booking in the same row; if unavailable, it reserves nearby seats.
+- **No Login Required**: Users can make reservations without needing to create an account.
+- **Responsive Design**: The application adapts seamlessly across various devices.
 
-Install dependencies
+## Technologies Used
 
-```bash
-  npm install
-```
+- **Frontend**: 
+  - React
+  - CSS
+- **Deployment**: 
+  - Netlify
 
-Start the server
+## Installation
 
-```bash
-  npm run start
-```
+To run the project locally, follow these steps:
 
-This application should now be running on `localhost`. If you want to Fork repository and want to run locally, follow this guidelines [Fork and Clone Github Repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/train-seat-booking.git
